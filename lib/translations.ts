@@ -80,7 +80,7 @@ Core Competencies: Frontend Development (React, Next.js, Angular), Backend Devel
       description:
         "5 años de experiencia construyendo aplicaciones web escalables con React, Angular, Next.js, Node.js y soluciones en la nube.",
       cta: "Ver mi trabajo",
-      tech: "React, Next.js, Angular, Node.js, Nest.js, TypeScript, AWS, Lambda, S3, Serverless, PostgreSQL, Firebase, MySQL, MongoDB, GraphQL, Ionic, React Native",
+      tech: "React, Next.js, Angular, Node.js, Nest.js, TypeScript, AWS, Lambda, Serverless, PostgreSQL, Firebase, MySQL, MongoDB, GraphQL, Ionic, React Native",
     },
     about: {
       title: "Acerca de Mí",

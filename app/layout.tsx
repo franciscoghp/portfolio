@@ -8,15 +8,15 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Francisco García - Full Stack Developer",
+  title: "Francisco Herrera - Full Stack Developer",
   description:
-    "Portfolio of Francisco García, a full-stack developer specializing in modern web applications, microservices, and fintech solutions.",
+    "Portfolio of Francisco Herrera, a full-stack developer specializing in modern web applications, microservices, and fintech solutions.",
   generator: "v0.app",
   keywords: "full-stack developer, web development, Next.js, Angular, Node.js",
-  authors: [{ name: "Francisco García" }],
+  authors: [{ name: "Francisco Herrera" }],
   openGraph: {
-    title: "Francisco García - Full Stack Developer",
-    description: "Portfolio of Francisco García, a full-stack developer specializing in modern web applications.",
+    title: "Francisco Herrera - Full Stack Developer",
+    description: "Portfolio of Francisco Herrera, a full-stack developer specializing in modern web applications.",
     type: "website",
   },
   icons: {
