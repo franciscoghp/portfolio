@@ -15,7 +15,7 @@ export function NavHeader({ currentLang, onLanguageChange, navItems }: NavHeader
         <div className="flex h-16 items-center justify-between">
           <div className="flex-1">
             <a href="#" className="text-xl font-bold text-foreground hover:opacity-80 transition">
-              FG
+              FH
             </a>
           </div>
 

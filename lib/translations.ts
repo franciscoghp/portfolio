@@ -9,8 +9,9 @@ export const translations = {
       title: "Francisco Herrera",
       subtitle: "Full Stack Developer",
       description:
-        "5 years of experience building scalable web applications with React, Angular, Next.js, Node.js, and cloud solutions.",
+        "5 years of experience building scalable web applications with React, Angular, NestJS, Next.js, Node.js, and cloud solutions.",
       cta: "View my work",
+      tech: "React, Next.js, Angular, Node.js, Nest.js, TypeScript, AWS, Lambda, Serverless, PostgreSQL, Firebase, MySQL, MongoDB, GraphQL, Ionic, React Native",
     },
     about: {
       title: "About Me",
@@ -18,7 +19,7 @@ export const translations = {
 
 I work with MEAN and MERN environments, managing databases like PostgreSQL, Firebase, and MySQL. I'm passionate about writing clean, maintainable code and collaborating in teams to deliver high-quality solutions.
 
-Core Competencies: Frontend Development (React, Next.js, Angular), Backend Development (Node.js, NestJS, GraphQL), Database Management (MongoDB, MySQL, PostgreSQL, Firebase), Cloud Services (AWS, Lambda, S3), and Agile Team Collaboration.`,
+Core Competencies: Frontend Development (React, Next.js, Angular), Backend Development (Node.js, NestJS, GraphQL), Database Management (MongoDB, MySQL, PostgreSQL, Firebase), Cloud Services (AWS, Lambda), and Agile Team Collaboration.`,
     },
     projects: {
       title: "Featured Projects",
@@ -36,7 +37,7 @@ Core Competencies: Frontend Development (React, Next.js, Angular), Backend Devel
       tauroflix: {
         name: "TauroFlix",
         description: "Multimedia content management and administration platform for photos and videos.",
-        tech: "Full Stack, Node.js, React",
+        tech: "Full Stack, Next.js, React",
       },
       microservices: {
         name: "Microservices - Wallet System",
@@ -79,6 +80,7 @@ Core Competencies: Frontend Development (React, Next.js, Angular), Backend Devel
       description:
         "5 años de experiencia construyendo aplicaciones web escalables con React, Angular, Next.js, Node.js y soluciones en la nube.",
       cta: "Ver mi trabajo",
+      tech: "React, Next.js, Angular, Node.js, Nest.js, TypeScript, AWS, Lambda, S3, Serverless, PostgreSQL, Firebase, MySQL, MongoDB, GraphQL, Ionic, React Native",
     },
     about: {
       title: "Acerca de Mí",
@@ -105,19 +107,19 @@ Competencias Principales: Desarrollo Frontend (React, Next.js, Angular), Desarro
       tauroflix: {
         name: "TauroFlix",
         description: "Plataforma de administración y gestión de contenido multimedia de fotos y videos.",
-        tech: "Full Stack, Node.js, React",
+        tech: "Full Stack, Next.js, React, TypeScript",
       },
       microservices: {
         name: "Microservicios - Sistema de Wallet",
         description:
           "Arquitectura de microservicios escalable para una plataforma de wallet digital con documentación de API REST.",
-        tech: "Node.js, Express, REST API",
+        tech: "Nest.js, NodeJS, REST API, TypeScript",
       },
       monolith: {
         name: "Wallet Monolito",
         description:
           "Aplicación backend monolítica que potencia el sistema de wallet con documentación completa de API.",
-        tech: "Node.js, Express, MongoDB",
+        tech: "Nest.js, Express, Postgress, TypeScript",
       },
       github: {
         name: "Repositorios en GitHub",

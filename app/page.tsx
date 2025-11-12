@@ -30,7 +30,7 @@ export default function Home() {
       name: t.projects.netflix.name,
       description: t.projects.netflix.description,
       tech: t.projects.netflix.tech,
-      href: "https://franciscoghp.github.io/franciscoLibreoferta/home",
+      href: "https://franciscoghp.github.io/franciscoLibreoferta",
     },
     {
       name: t.projects.tauroflix.name,
@@ -68,6 +68,7 @@ export default function Home() {
           subtitle={t.hero.subtitle}
           description={t.hero.description}
           cta={t.hero.cta}
+          tech={t.hero.tech}
         />
 
         <AboutSection title={t.about.title} description={t.about.description} />
