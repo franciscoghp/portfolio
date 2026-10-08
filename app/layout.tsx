@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Francisco Herrera, a full-stack developer specializing in modern web applications, microservices, and fintech solutions.",
   generator: "v0.app",
-  keywords: "full-stack developer, web development, Next.js, Angular, Node.js",
+  keywords: "full-stack developer, web development, NestJS, Node.js, Next.js, Angular",
   authors: [{ name: "Francisco Herrera" }],
   openGraph: {
     title: "Francisco Herrera - Full Stack Developer",

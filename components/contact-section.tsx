@@ -12,7 +12,7 @@ export function ContactSection({ title, description, email, phone, github, linke
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-card">
       <div className="max-w-2xl mx-auto text-center space-y-12">
         <div className="space-y-4">
-          <h2 className="text-4xl sm:text-5xl font-bold text-foreground">{title}</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold text-foreground">📬 {title}</h2>
           <p className="text-lg text-foreground/70">{description}</p>
         </div>
 

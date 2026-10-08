@@ -1,47 +1,55 @@
+import { TechBadge } from "@/components/tech-badge"
+
 interface HeroSectionProps {
   title: string
   subtitle: string
   description: string
   cta: string
   tech: string
+  cvLabel: string
+  cvHref: string
+  cvFilename: string
 }
 
-export function HeroSection({ title, subtitle, description, cta, tech }: HeroSectionProps) {
+export function HeroSection({ title, subtitle, description, cta, tech, cvLabel, cvHref, cvFilename }: HeroSectionProps) {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-background">
-      <div className="max-w-5xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-10">
-        {/* Imagen a la izquierda */}
+    <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-card">
+      <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center gap-8">
         <div className="flex-shrink-0">
           <img
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSC06683-9mr9ff4Sk7lLO3WRgoVpEJc7mgRMVR.jpg"
             alt="Francisco Herrera"
-            className="w-50 rounded-xl object-cover border border-primary/20"
+            style={{ width: "clamp(180px, 60vw, 240px)", height: "clamp(240px, 80vw, 320px)" }}
+            className="rounded-2xl object-cover object-top border-2 border-primary/30 shadow-lg"
           />
         </div>
 
-        {/* Texto a la derecha */}
-        <div className="text-center lg:text-left space-y-6">
-          <div className="space-y-2">
-            <p className="text-lg font-medium text-foreground/60">{subtitle}</p>
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground text-balance">{title}</h1>
+        <div className="text-center sm:text-left space-y-4">
+          <div className="space-y-1">
+            <p className="text-base font-medium text-primary">👨‍💻 {subtitle}</p>
+            <h1 className="text-4xl sm:text-5xl font-bold text-foreground text-balance">{title}</h1>
           </div>
-          <p className="text-lg text-foreground/70 text-balance max-w-xl leading-relaxed">{description}</p>
+          <p className="text-base sm:text-lg text-foreground/70 text-balance max-w-xl leading-relaxed">{description}</p>
 
-          {tech.split(",").map((item) => (
-            <span
-              key={item.trim()}
-              className="inline-block px-3 py-1 rounded-full bg-muted text-muted-foreground text-sm font-medium mr-2"
-            >
-              {item.trim()}
-            </span>
-          ))}
+          <div className="flex flex-wrap justify-center sm:justify-start gap-2">
+            {tech.split(",").map((item) => (
+              <TechBadge key={item.trim()} name={item} className="px-2.5 py-0.5 text-xs" />
+            ))}
+          </div>
 
-          <div className="pt-4">
+          <div className="pt-2 flex flex-wrap justify-center sm:justify-start gap-3">
             <a
               href="#projects"
-              className="inline-flex items-center justify-center px-8 py-3 border border-foreground/20 rounded-lg text-foreground font-medium hover:bg-foreground hover:text-background transition duration-200"
+              className="inline-flex items-center justify-center px-6 py-2.5 border border-foreground/20 rounded-lg text-foreground font-medium hover:bg-foreground hover:text-background transition duration-200"
             >
-              {cta}
+              🚀 {cta}
+            </a>
+            <a
+              href={cvHref}
+              download={cvFilename}
+              className="inline-flex items-center justify-center px-6 py-2.5 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition duration-200"
+            >
+              📄 {cvLabel}
             </a>
           </div>
         </div>
