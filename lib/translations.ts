@@ -131,10 +131,22 @@ Core Competencies: Frontend Development (React, Next.js, Angular), Backend Devel
           "Interactive map app with browser geolocation, curated London venues with descriptions, remote data loading and custom pins added by clicking on the map.",
         tech: "React, Leaflet, React Router, Vercel",
       },
+      socialFeed: {
+        name: "Social Feed",
+        description:
+          "Social posts app with JWT login, role-based access (admin approves or rejects posts), likes and user profiles. One-click demo login for visitors. Next.js frontend and NestJS API, both on Vercel.",
+        tech: "Next.js, React, TypeScript, Tailwind CSS, Nest.js, Node.js, JWT",
+      },
       tauroflix: {
         name: "TauroFlix",
         description: "Multimedia content management and administration platform for photos and videos.",
         tech: "Full Stack, Next.js, React",
+      },
+      vehicleMakes: {
+        name: "Vehicle Makes GraphQL API",
+        description:
+          "GraphQL API that imports vehicle makes and their vehicle types from the public NHTSA API, stores them in MongoDB and serves them with pagination. Includes a scheduled refresh, unit tests and an interactive Apollo sandbox.",
+        tech: "Nest.js, Node.js, GraphQL, Apollo, MongoDB, Prisma, TypeScript, Vercel",
       },
       github: {
         name: "GitHub Repositories",
@@ -152,7 +164,7 @@ Core Competencies: Frontend Development (React, Next.js, Angular), Backend Devel
       linkedin: "LinkedIn",
     },
     footer: {
-      copyright: "© 2025 Francisco Herrera. All rights reserved.",
+      copyright: "© 2026 Francisco Herrera. All rights reserved.",
     },
   },
   es: {
@@ -288,10 +300,22 @@ Competencias Principales: Desarrollo Frontend (React, Next.js, Angular), Desarro
           "Aplicación de mapas interactiva con geolocalización del navegador, lugares destacados de Londres con descripción, carga de datos remotos y marcadores personalizados al hacer clic en el mapa.",
         tech: "React, Leaflet, React Router, Vercel",
       },
+      socialFeed: {
+        name: "Social Feed",
+        description:
+          "Aplicación de publicaciones con login JWT, acceso por roles (el administrador aprueba o rechaza publicaciones), me gusta y perfiles. Acceso demo con un clic para los visitantes. Frontend en Next.js y API en NestJS, ambos en Vercel.",
+        tech: "Next.js, React, TypeScript, Tailwind CSS, Nest.js, Node.js, JWT",
+      },
       tauroflix: {
         name: "TauroFlix",
         description: "Plataforma de administración y gestión de contenido multimedia de fotos y videos.",
         tech: "Full Stack, Next.js, React, TypeScript",
+      },
+      vehicleMakes: {
+        name: "API GraphQL de Marcas de Vehículos",
+        description:
+          "API GraphQL que importa marcas de vehículos y sus tipos desde la API pública de NHTSA, las guarda en MongoDB y las sirve con paginación. Incluye actualización programada, pruebas unitarias y un sandbox interactivo de Apollo.",
+        tech: "Nest.js, Node.js, GraphQL, Apollo, MongoDB, Prisma, TypeScript, Vercel",
       },
       github: {
         name: "Repositorios en GitHub",
@@ -309,7 +333,7 @@ Competencias Principales: Desarrollo Frontend (React, Next.js, Angular), Desarro
       linkedin: "LinkedIn",
     },
     footer: {
-      copyright: "© 2025 Francisco Herrera. Todos los derechos reservados.",
+      copyright: "© 2026 Francisco Herrera. Todos los derechos reservados.",
     },
   },
 }

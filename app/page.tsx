@@ -37,6 +37,13 @@ export default function Home() {
       image: "/projects/venue-map.jpg",
     },
     {
+      name: t.projects.socialFeed.name,
+      description: t.projects.socialFeed.description,
+      tech: t.projects.socialFeed.tech,
+      href: "https://social-feed-app-chi.vercel.app/login",
+      image: "/projects/social-feed.jpg",
+    },
+    {
       name: t.projects.tauroflix.name,
       description: t.projects.tauroflix.description,
       tech: t.projects.tauroflix.tech,
@@ -74,6 +81,13 @@ export default function Home() {
       description: t.projects.rulesEngine.description,
       tech: t.projects.rulesEngine.tech,
       image: "/projects/rules-engine.jpg",
+    },
+    {
+      name: t.projects.vehicleMakes.name,
+      description: t.projects.vehicleMakes.description,
+      tech: t.projects.vehicleMakes.tech,
+      href: "https://vehicle-makes-api.vercel.app",
+      image: "/projects/vehicle-makes-graphql.jpg",
     },
     {
       name: t.projects.github.name,

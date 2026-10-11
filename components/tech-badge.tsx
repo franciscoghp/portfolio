@@ -30,6 +30,7 @@ const icons: Record<string, string> = {
   "vue.js": "vuejs/vuejs-original.svg",
   "tailwind css": "tailwindcss/tailwindcss-original.svg",
   rxjs: "rxjs/rxjs-original.svg",
+  prisma: "prisma/prisma-original.svg",
   apollo: "apollographql/apollographql-original.svg",
   github: "github/github-original.svg",
 }
@@ -46,6 +47,7 @@ const emojis: Record<string, string> = {
   microservicios: "🧱",
   s3: "🪣",
   leaflet: "🍃",
+  jwt: "🔑",
   "react router": "🧭",
 }
 
