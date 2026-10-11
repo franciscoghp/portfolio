@@ -90,6 +90,13 @@ export default function Home() {
       image: "/projects/vehicle-makes-graphql.jpg",
     },
     {
+      name: t.projects.taskManager.name,
+      description: t.projects.taskManager.description,
+      tech: t.projects.taskManager.tech,
+      href: "https://task-manager-api-ten-gold.vercel.app/docs",
+      image: "/projects/task-manager-api.jpg",
+    },
+    {
       name: t.projects.github.name,
       description: t.projects.github.description,
       tech: t.projects.github.tech,

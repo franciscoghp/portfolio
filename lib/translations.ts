@@ -148,6 +148,12 @@ Core Competencies: Frontend Development (React, Next.js, Angular), Backend Devel
           "GraphQL API that imports vehicle makes and their vehicle types from the public NHTSA API, stores them in MongoDB and serves them with pagination. Includes a scheduled refresh, unit tests and an interactive Apollo sandbox.",
         tech: "Nest.js, Node.js, GraphQL, Apollo, MongoDB, Prisma, TypeScript, Vercel",
       },
+      taskManager: {
+        name: "Task Manager API",
+        description:
+          "REST API to create, list, update and delete tasks with a Pending / Completed status. Documented with Swagger and deployed on Vercel with a Neon PostgreSQL database.",
+        tech: "Nest.js, Node.js, TypeScript, PostgreSQL, TypeORM, Swagger, Docker",
+      },
       github: {
         name: "GitHub Repositories",
         description: "Collection of all my projects and contributions available on GitHub.",
@@ -316,6 +322,12 @@ Competencias Principales: Desarrollo Frontend (React, Next.js, Angular), Desarro
         description:
           "API GraphQL que importa marcas de vehículos y sus tipos desde la API pública de NHTSA, las guarda en MongoDB y las sirve con paginación. Incluye actualización programada, pruebas unitarias y un sandbox interactivo de Apollo.",
         tech: "Nest.js, Node.js, GraphQL, Apollo, MongoDB, Prisma, TypeScript, Vercel",
+      },
+      taskManager: {
+        name: "API de Gestión de Tareas",
+        description:
+          "API REST para crear, listar, actualizar y eliminar tareas con estado Pendiente / Completada. Documentada con Swagger y desplegada en Vercel con una base de datos PostgreSQL en Neon.",
+        tech: "Nest.js, Node.js, TypeScript, PostgreSQL, TypeORM, Swagger, Docker",
       },
       github: {
         name: "Repositorios en GitHub",
