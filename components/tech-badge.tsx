@@ -15,7 +15,6 @@ const icons: Record<string, string> = {
   express: "express/express-original.svg",
   typescript: "typescript/typescript-original.svg",
   aws: "amazonwebservices/amazonwebservices-plain-wordmark.svg",
-  serverless: "serverless/serverless-original.svg",
   postgresql: "postgresql/postgresql-original.svg",
   postgress: "postgresql/postgresql-original.svg",
   firebase: "firebase/firebase-original.svg",
@@ -39,6 +38,7 @@ const icons: Record<string, string> = {
 // Tecnologías sin icono propio: un emoji de respaldo
 const emojis: Record<string, string> = {
   lambda: "⚡",
+  serverless: "☁️",
   "aws lambda": "⚡",
   "rest api": "🔌",
   "full stack": "🧩",
