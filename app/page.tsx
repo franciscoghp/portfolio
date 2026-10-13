@@ -68,18 +68,21 @@ export default function Home() {
       name: t.projects.auth.name,
       description: t.projects.auth.description,
       tech: t.projects.auth.tech,
+      href: "https://144.24.28.247/authts30/api/docs",
       image: "/projects/auth.jpg",
     },
     {
       name: t.projects.paymentRequest.name,
       description: t.projects.paymentRequest.description,
       tech: t.projects.paymentRequest.tech,
+      href: "https://144.24.28.247/pay-requestts30/api/docs",
       image: "/projects/payment-request.jpg",
     },
     {
       name: t.projects.rulesEngine.name,
       description: t.projects.rulesEngine.description,
       tech: t.projects.rulesEngine.tech,
+      href: "https://qa-tesoreria.payment-core.com/rulests30/api/docs",
       image: "/projects/rules-engine.jpg",
     },
     {
